@@ -22,4 +22,4 @@ fs.writeFileSync('dist/index.html', '<!DOCTYPE html><link rel="stylesheet" href=
 var app = express()
 app.use(express.static(__dirname + '/dist'))
 app.listen(3000, '0.0.0.0')
-console.error('Listening on http://0.0.0.0:3000/')
+console.error('Serving ./dist on http://0.0.0.0:3000/')
