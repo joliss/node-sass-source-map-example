@@ -11,3 +11,5 @@ source map, and serve `dist`:
 node standard-output.js
 node better-output.js
 ```
+
+Discussion: https://github.com/sass/libsass/issues/908
